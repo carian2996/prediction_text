@@ -87,10 +87,19 @@ shinyUI(
                           tabPanel("About Me",
                                        sidebarLayout(
                                            sidebarPanel(
-                                               p("Aquí va algo")
+                                               p("Hi! My name is Ian, I'm from Mexico and I'm 23 years"),
+                                               p("Thanks for testing my app, I hope you enjoyed as much as I did it develop it."),
+                                               p("Any comments or complaint you can sent me an email to:"),
+                                               p(strong("iancastillorosales@gmail.com"))
                                            ),
                                            mainPanel(
-                                               h3("Aquí va información sobre mi")
+                                               h3("Professional Experience"),
+                                               p("You can find more information about me, here:"),
+                                               a(img(src = "me_github.png", height = 30, width = 30),href="http://github.com/carian2996"),
+                                               a(img(src = "me_linkedin.png", height = 35, width = 35),href="http://www.linkedin.com/in/castillorosalesian"),
+                                               h3("Personal Info"),
+                                               p("Or, in my GSite:"),
+                                               a(img(src = "me_gsite.jpeg", height = 35, width = 35),href="http://sites.google.com/site/castillorosalesian/")
                                            )
                                        )
                                    )
