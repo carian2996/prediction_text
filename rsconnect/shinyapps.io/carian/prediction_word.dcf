@@ -1,0 +1,8 @@
+name: prediction_word
+account: carian
+server: shinyapps.io
+bundleId: 247715
+url: https://carian.shinyapps.io/prediction_word
+when: 1440279711.35579
+asMultiple: FALSE
+asStatic: FALSE
